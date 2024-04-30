@@ -1,0 +1,151 @@
+/* Con el selector universal podemos seleccionar todos los elementos del html y resetear las reglas de CSS que añade el navegador */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* El lenguaje CSS se organiza por bloques de código llamados reglas de css */
+
+/* Para seleccionar el elemento body podemos usar este tipo de selector */
+body
+{
+    color: blueviolet;
+    background-color: #ffff3f;
+}
+
+header
+{
+    background-color: aliceblue;
+
+    /* Espacio que se genera hacia dentro de la caja */
+    padding: 50px;
+
+    border: 5px blue solid;
+
+    /* Espacio que se genera hacia fuera de la caja */
+    /* 100px a cada lado */
+    margin: 100px;
+
+    /* Las propiedades margin y padding pueden dividirse en sus 4 lados */
+    /* margin-top: 40px;
+    margin-right: 65px;
+    margin-bottom: 30px;
+    margin-left: 20px; */
+
+    /* Los 4 lados siguiendo las agujas del reloj */
+    /* margin: 40px 65px 30px 20px; */
+
+    /* top-bottom y right-left */
+    /* margin: 40px 65px; */
+}
+
+h1
+{
+    font-size: 48px;
+    color: red;
+}
+
+h2
+{
+    color: green;
+}
+
+/* Tenemos 3 tipos principales de selectores de CSS: */
+
+/* Selector por nombre de etiqueta de HTML (tag name) */
+p
+{
+    color: blue;
+}
+
+#about_me
+{
+    padding: 50px;
+}
+
+#about_me div:first-child
+{
+    padding: 10px;
+}
+
+#about_me div:last-child
+{
+    padding: 20px;
+}
+
+#about_me div:nth-child(2)
+{
+    padding: 15px;
+}
+
+#about_me div image
+{
+    box-shadow: 8px 9px 11px black;
+}
+
+/* Seleccionamos TODOS los div pero excluimos el primero */
+/* #about_me div:not(first-child)
+{
+    padding: 10px;
+} */
+
+/* Selector por id */
+/* Para crear un selector a un id, usaremos el símbolo # seguido del nombre del id */
+#about_me_title
+{
+    color: aqua;
+}
+
+/* Selector por clase */
+/* Para crear un selector a una clase, usaremos un punto (.) seguido del nombre de la clase */
+.pr-text
+{
+    color: chartreuse;
+}
+
+.big-text
+{
+    font-size: 36px;
+}
+
+img
+{
+    width: 100%;
+}
+
+/* Orden de prioridad de los 3 principales tipos de selectores de CSS */
+/* 1) Selector por id */
+/* 2) Selector por clase */
+/* 3) Selector por nombre de etiqueta (tag name) */
+/* 4) Selector universal -> * */
+
+/* Selectores de CSS por relación entre los elementos: */
+
+/* Selector de descendientes a cualquier nivel */
+/* #my_enemies *
+{
+    color: pink;
+} */
+
+/* Selecciona TODOS los h2 dentro de un elemento con id my_enemies a cualquier nivel */
+/* #my_enemies h2
+{
+    color: red;
+} */
+
+/* Selecciona TODOS los elementos de clase title-section dentro de un elemento con id my_enemies a cualquier nivel */
+/* #my_enemies .title-section
+{
+    color: green;
+} */
+
+/* Selector de descendientes directos o hijos */
+#my_enemies > div > p
+{
+    color: blue;
+}
+/* Seleccionamos los p que son hijos del elemento con id my_enemies */

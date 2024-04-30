@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- Para crear un comentario de código
+WIN -> Ctrl+Ç
+MAC -> CMD+Shift+7 -->
+
+<!-- El atajo de ajuste de línea o ajuste de palabra:
+Ctrl+Z -->
+
+<!-- Atajo "seleccionar todo":
+Ctrl+A -->
+
+<html lang="en">
+    <head>
+        <!-- En el head configuraremos el documento de HTML, es invisible para el usuario. Algunas etiquetas meta de configuración se repetirán siempre. -->
+
+        <!-- La etiqueta meta charset nos servirá para indicar la codificación del documento, es obligatoria. -->
+        <meta charset="utf-8">
+        <title>Felix Portfolio | Home</title>
+        <meta name="author" content="Felix the Cat">
+        <meta name="description" content="The best portfolio ever made by a cat">
+        <!-- Con la etiqueta meta viewport indicamos al navegador que nuestra web es responsive. -->
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Cargamos el favicon -->
+        <!-- href -> ruta al favicon
+        icon -> relación del archivo con la web
+        type -> definición de formato -->
+        <link href="Media/Image/favicon.ico" rel="icon" type="image/x-icon">
+
+        <!-- Para cargar un archivo de CSS usaremos la etiqueta <link> -->
+        <link href="CSS/style.css" rel="stylesheet" type="text/css">
+
+        <!-- Mediante la etiqueta <style></style> podremos añadir código CSS dentro de nuestro HTML -->
+        <style>
+            /* Todo lo que se encuentre dentro de estas etiquetas, código de CSS */
+
+            /* Los bloques de código de CSS se llaman reglas de CSS */
+            /* h2 -> es el selector de CSS (en este caso selecciona todos los h2 del index.html) */
+            /* {} ->las llaves de CSS contienen las propiedades de la regla de CSS y aplican a lo selecciomado por el selector */
+            /* color -> es una propiedad de CSS para modificar el color del texto */
+            /* cadetblue -> es el valor de la propiedad color (en este caso es un valor de tipo color) */
+            /* h2 
+            {
+                color: #b0ff30;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            h3 
+            {
+                color: cadetblue;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: italic;
+            } */
+        </style>
+    </head>
+    <body>
+        <!-- Tenemos 3 formas diferentes de añadir código de CSS a nuestro HTML, solo 1 de ellas es la buena: -->
+        <!-- -Añadimos CSS "en línea" con el atributo style, esta forma no es la más correcta -->
+        <!-- -Añadimos CSS en una etiqueta <style></style> dentro del <head></head> de nuestro HTML. Esta forma tampoco es la más correcta -->
+        <!-- La forma correcta de trabajar con CSS es enlazarlo al HTML desde un archivo externo. Este enlace se hará en el head del HTML -->
+        
+        <!-- En el body vamos a añadir el contenido de la web -->
+        <!-- Los elementos h1, h2, h3, etc. son títulos y el número es el nivel de prioridad -->
+        <!-- <h1 style="color: blueviolet; font-size: 46px;">Hello world!</h1> -->
+        <h1>Hi! I'm Felix the Cat</h1>
+        <h2>En España usamos la letra Ñ y las tildes</h2>
+        <h3>Something about me: <em>Felix the Cat</em> Copyright &copy;</h3>
+        <h4 class="red-text">In maths 7 &lt; 13</h4>
+
+        <!-- Listas de HTML -->
+        <!-- Listas ordenadas -->
+        <!-- <ol>
+            <li>Home</li>
+            <li>Projects</li>
+            <li>About me</li>
+            <li>Contact</li>
+            <li>Legal</li>
+        </ol> -->
+
+        <!-- Listas desordenadas -->
+        <ul>
+            <li>Home</li>
+            <li>
+                <!-- Para crear un enlace a un id, usaremos el símbolo # y el nombre del id -->
+                <a href="#projects">                  
+                    Projects
+                </a>
+                <ul>
+                    <li>Illustration</li>
+                    <li>2D Animation</li>
+                    <li>2D Modelling</li>
+                </ul>
+            </li>
+            <li>About me</li>
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+            <li>Legal</li>
+            <li>
+                <a href="https://www.youtube.com/" title="Go to Youtube channel">Youtube Channel</a>
+            </li>
+        </ul>
+
+        <!-- Tenemos 3 tipos de enlaces:
+            - href -> ruta del enlace
+            - target -> como se abre el enlace (por defecto si se queda vacío se abre en la misma ventana)
+            - - con el valor "_blank" se abre en una nueva ventana
+            - title -> información adicional
+        - Enlaces a páginas externas
+        - Enlaces a páginas internas
+        - Enlaces dentro de una misma página a un id -->
+        <!-- Usaremos el elemento <a href="" target="_blank" title="Información del enlace"></a> -->
+
+        <!-- El elemento p (de paragraph) nos servirá para añadir cuerpo texto. -->
+        <p class="red-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam et eaque nam similique! Soluta expedita, <strong>quam molestias aperiam</strong> <span>maxime eveniet necessitatibus voluptate deleniti iusto porro officia, similique vel!</span> <em>Ab voluptates laudantium aliquid, velit animi veniam corporis numquam, adipisci ullam magnam illo accusantium laborum inventore cumque explicabo suscipit similique nulla sint.</em></p>
+        
+        <!-- Un elemento de texto pero de tipo "en linea" -> inline -->
+        <span>This is an inline element</span>
+        <span class="red-text">This is another inline element</span>
+        
+        <!-- Para crear un salto de línea -->
+        <br>
+        <br> 
+
+        <!-- Para cargar una imagen usamos el elemento img con el atributo src -->
+        <!-- El atributo alt será el texto alternativo a la imagen -->
+        
+        <!-- Enlace con una imagen -->
+        <a href="https://en.wikipedia.org/wiki/Felix_the_Cat" target="_blank" title="Wikipedia">
+            <img src="Media/Image/FelixTheCat.jpg" alt="A very cool cat" width="400">
+        </a>
+
+        <!-- .jpeg, .jpg
+        .png
+        .webp -->
+
+        <br>
+        <br> 
+
+        <audio controls src="Media/Audio/CatPurr.mp3" type="audio/mp3"></audio>
+
+        <!-- .mp3
+        .ogg
+        .wav -->
+
+        <!-- Cargamos varios archivos de audio en diferentes formatos -->
+        <!-- <audio controls>
+            <source src="audio.ogg" type="audio/ogg">
+            <source src="audio.mp3" type="audio/mp3">
+        </audio> -->
+
+        <br>
+        <br>
+        <br> 
+
+        <!-- Para hacer play en cuanto se cargue la web el video deberá estar muteado -->
+        <video autoplay muted loop src="Media/Video/CatWalk.mp4" type="video/mp4"></video>
+        
+        <!-- .mp4
+        .webm
+        .ogg -->
+
+        <!-- <video controls>           
+            <source src="video.webm" type="video/webm">
+            <source src="video.mp4" type="video/mp4">
+        </video> -->
+
+        <br>
+        <br> 
+
+        <!-- Podemos cargar contenido multimedia de plataformas externas con el elemento <iframe> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DsSus18EVj0?controls=0&muted=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+        <!-- Los atributos para el video: controls, autoplay, muted, loop, los tenemos que pedir junto con la url -->
+
+        <!-- Para generar espacio vacío en vertical -->
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <br> 
+        
+        <!-- Podemos identificar de forma única elementos de HTML con el atributo id -->
+        <h2 id="projects">Projects</h2>
+    </body>
+</html>

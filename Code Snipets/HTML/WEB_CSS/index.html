@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Wario">
+        <meta name="description" content="El mario bueno">
+
+        <title>Wario</title>
+        
+        <!-- Cargamos iconos de Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+
+        <!-- Para enlazar un archivo externo de CSS usaremos la etiqueta <link> -->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        <div class="menu-cont">
+            <a href="#">
+                <img src="media/images/Logo.png">
+            </a>
+            <nav>
+                <input type="checkbox" id="menuToggle">
+                <label for="menuToggle" class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu-opt">
+                    <li>
+                        <a href="#about_me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my_enemies">My Enemies</a>
+                    </li>
+                    <li>
+                        <a href="#my_friends">My Friends</a>
+                    </li>
+                    <li>
+                        <button>¡Hola!</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <h1>WAAAAAAARIO TIME!</h1>
+            <h2 class="carter-one">Wah! Soy el Mario "malo"</h2>
+            <h3>Me gustan las motos y los tesoros</h3>
+        </header>
+        <main>
+            <section id="about_me">
+                <div>
+                    <!-- En este punto se encuentra el pseudo-elemento ::before -->
+                    <img src="media/images/WARIO.jpg" alt="Wario">
+                    <!-- ::after -->
+                </div>
+                <div>
+                    <h2 id="about_me_title">YOU PICK WAAARIO!</h2>
+                    <P class="pr-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque velit odio ipsa praesentium numquam dolore, enim eligendi fugiat nam accusamus culpa mollitia deserunt eaque consectetur porro voluptatibus eum accusantium molestias.</P>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure inventore exercitationem, quisquam velit, architecto deserunt dignissimos dicta iste reiciendis fugiat eveniet repudiandae eaque soluta. Ducimus fuga dignissimos nesciunt autem quibusdam?</p>
+                </div>
+            </section>
+
+            <section id="my_enemies">
+                <h2 class="title-section">Mis enemigos</h2>
+                <p>Primer párrafo</p>
+                <div class="gallery">
+                    <ul>
+                        <li>
+                            <img src="https://picsum.photos/400/600">
+                            <div class="overlay">
+                                <span>Image text overlay 1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/600/400">
+                            <div class="overlay">
+                                <span>Image text overlay 2</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/400">
+                            <div class="overlay">
+                                <span>Image text overlay 3</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/600/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/600">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/600">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/600/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/600/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/600">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/600">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/600/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/600/400">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/600">
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/400/400">
+                        </li>
+                    </ul>
+                </div>
+                <p class="pr-text">Tercer párrafo</p>
+                <span>Texto en línea 1</span>
+                <span class="pr-text big-text">Texto en línea 2</span>
+                <section></section>
+            </section>
+
+            <section id="my_friends">
+                <div id="slide_container">
+                    <div class="slide-element-1">
+                        <img class="slide-image" src="https://picsum.photos/720/360">
+                        <p class="slide-text">Slide text 1</p>
+                    </div>
+                    <div class="slide-element-2">
+                        <img class="slide-image" src="https://picsum.photos/720/360">
+                        <p class="slide-text">Slide text 2</p>
+                    </div>
+                    <div class="slide-element-3">
+                        <img class="slide-image" src="https://picsum.photos/720/360">
+                        <p class="slide-text">Slide text 3</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <ul>
+                    <li>
+                        <h3>Links</h3>
+                    </li>
+                    <li>
+                        <a>About Me</a>
+                    </li>
+                    <li>
+                        <a>Skills</a>
+                    </li>
+                    <li>
+                        <a>My Proyects</a>
+                    </li>
+                    <li>
+                        <a>Basic Forms</a>
+                    </li>
+                    <li>
+                        <a>Flexbox</a>
+                    </li>
+                    <li>
+                        <a id="highlighted">Hire Me!</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h3>Links</h3>
+                    </li>
+                    <li>
+                        <a>About Me</a>
+                    </li>
+                    <li>
+                        <a>Skills</a>
+                    </li>
+                    <li>
+                        <a>My Proyects</a>
+                    </li>
+                    <li>
+                        <a>Basic Forms</a>
+                    </li>
+                    <li>
+                        <a>Flexbox</a>
+                    </li>
+                    <li>
+                        <a id="highlighted">Hire Me!</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h3>Links</h3>
+                    </li>
+                    <li>
+                        <a>About Me</a>
+                    </li>
+                    <li>
+                        <a>Skills</a>
+                    </li>
+                    <li>
+                        <a>My Proyects</a>
+                    </li>
+                    <li>
+                        <a>Basic Forms</a>
+                    </li>
+                    <li>
+                        <a>Flexbox</a>
+                    </li>
+                    <li>
+                        <a id="highlighted">Hire Me!</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
