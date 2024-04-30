@@ -1,0 +1,14 @@
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\bin\Debug\netcoreapp3.1\ExamenEDER.exe
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\bin\Debug\netcoreapp3.1\ExamenEDER.deps.json
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\bin\Debug\netcoreapp3.1\ExamenEDER.runtimeconfig.json
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\bin\Debug\netcoreapp3.1\ExamenEDER.runtimeconfig.dev.json
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\bin\Debug\netcoreapp3.1\ExamenEDER.dll
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\bin\Debug\netcoreapp3.1\ExamenEDER.pdb
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\obj\Debug\netcoreapp3.1\ExamenEDER.csproj.AssemblyReference.cache
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\obj\Debug\netcoreapp3.1\ExamenEDER.GeneratedMSBuildEditorConfig.editorconfig
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\obj\Debug\netcoreapp3.1\ExamenEDER.AssemblyInfoInputs.cache
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\obj\Debug\netcoreapp3.1\ExamenEDER.AssemblyInfo.cs
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\obj\Debug\netcoreapp3.1\ExamenEDER.csproj.CoreCompileInputs.cache
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\obj\Debug\netcoreapp3.1\ExamenEDER.dll
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\obj\Debug\netcoreapp3.1\ExamenEDER.pdb
+F:\UDIT\2º Semestre\Introducción a la Programación de Videojuegos y Entornos Virtuales\David\ExamenEDER\ExamenEDER\obj\Debug\netcoreapp3.1\ExamenEDER.genruntimeconfig.cache
